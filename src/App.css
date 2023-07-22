@@ -1,38 +1,84 @@
+body{
+  background-color: rgb(182, 225, 233);
+  padding: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: aliceblue;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header{
+  background-color: rgb(53, 53, 107);
+  margin: 0;
+  padding: 1rem;
+  box-shadow: 0 0 15px black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header > h1{
+  margin: 0;
+  font-size: 5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header > h2{
+  font-size: 3rem;
+}
+
+.scoring{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 200px;
+  font-size: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+main{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section{
+  width: 300px;
+}
+
+#card{
+  background-color: rgb(53, 53, 107);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 15px black;
+}
+
+#buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  width: 100px;
+  font-size: 2rem;
+  background-color: rgb(53, 53, 107);
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(26, 26, 70);
+}
+
+#buttonHeader{
+  background-color: rgb(53, 53, 107);;
+  font-size: 1.5rem;
+  margin-top: 0;
+  border-radius: 5px;
+}
+
+img{
+  width: 100%;
+  height: 300px;
+}
+
+#message{
+  font-size: 1.75rem;
 }
