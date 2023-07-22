@@ -57,15 +57,7 @@ function App() {
   }
 
   function updateMessage(text){
-    if(text == "Correct!"){
-      setMessage(text);
-      setTimeout(() => {
-        setMessage("Keep Going!");
-      }, 500)
-    }
-    else{
-      setMessage(message);
-    }
+    setMessage(text);
   }
 
   function Check(input){
